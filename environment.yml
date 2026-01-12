@@ -1,0 +1,14 @@
+name: llamas-quicklook
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - numpy
+  - astropy
+  - seaborn
+  - matplotlib
+  - scipy
+  - pip
+  - pip:
+    - -e .
